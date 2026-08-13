@@ -1,0 +1,65 @@
+=====================
+Project: Upgrading Laptop
+	Initial Chat: Windows 11 Pro Install
+
+Project Base Outline 1.0 
+On another conversation I provided you with this statement... "Here is the current situation that I need your assistance on... 
+We'll be working on a New ASUS ROG Strix G18 G814FP, with an AMD R9 CPU, 32GBs of DDR5 RAM, and a 1TB PCIe G4 SSD. The current running Operating System is running Windows 11 Home (Version 25H2 OS Build 26200.8875) from the factory. First I don't want Windows 11 Home, I want to have Windows 11 Pro. Secondly, I don't want it to have all the preloaded space-stealing bloatware and forced unnecessary applications. I understand that I will need various current factory resources, such as the active drivers, secure hardware binding, or any other important resources. For instance the ASUS eSupport folder with the AsInsWiz.exe, Factory Color Profiles, the capture screen calibration license, Dolby Vision's license configuration (PQConfig.dv) and its associated files (.icm and/or .icc), ASUS Custom Background Wallpapers and Virtual Avatars, etc.
+
+Your role is as a tech savy support guru, with experience in ASUS systems. You will guide me through the process step-by-step with indepth detailed directions aimed towards assisting a non-technical novice customer to achieve the end state goal of a fully operational Windows 11 Pro that works with all of the ASUS resources (such as MyASUS, Armoury Crate, and other Factory configurations and resources)
+
+
+Here is some Additional Supporting Information....
+A) Let's delve into the 1TB PCIe G4 SSD. It has a total of 6 partitions, with 5 volumes established. My observations from "diskpart" are as follows...
+
+	1) Partition List
+	Partition #	Type		Size	Offset	Information
+	===========	====		====	======	===========
+	Partition 1	System		260MB	1024KB	Tied to Volume 2
+	Partition 2	Reserved	16MB	261MB	Not tied to a Volume
+	Partition 3	Primary		924GB	277MB	Tied to Volume 0
+	Partition 4	Recovery	896MB	924GB	Tied to Volume 3
+	Partition 5	Primary		28GB	925GB	Not tied to a Volume
+	Partition 6	Recovery 	260MB	953GB	Tied to Volume 4
+
+
+	2) Volume List
+	Volume #	Ltr	Label	Fs	Type		Size	Status		Information
+	========	===	=====	==	====		====	======		===========
+	Volume 0	C	OS	NTFS	Partition	924GB	Healthy		Boot ; Tied to Partition 3
+	Volume 1		RESTORE	NTFS	Partition	28GB	Healthy
+	Volume 2		SYSTEM	FAT32	Partition	260MB	Healthy		System ; Tied to Partition 1
+	Volume 3			NTFS	Partition	896MB	Healthy		Hidden ; Tied to Partition 4
+	Volume 4		MYASUS	FAT32	Partition	260MB	Healthy		Hidden ; Tied to Partition 6
+
+	It also appears that this laptop with its digital license built directly into its motherboard ACPI tables (the MDSM), so whenever a standard Microsoft Windows 11 installer is plugged in it automatically reads that motherboard key and forces it by default back to reading the factory's Home version and not allowing the ability to install a different version completely. There was a previous mention about an ei.cfg file under resources folder - but there was no mention of what resources? where? 
+
+	I intend to have a truly clean installation of Windows 11 Pro on this drive, up to and including -but not limited to wiping out the SSD and ALL PARTITIONS. The Windows Pro installation will be allowed to create its normal partitions. Once the install is done then I'll reinstall the previous drivers and other resources from the original build that I want to keep - minus the trailware/bloatware. Then I'll proceed to install and load all of the applications I want (such as NordVPN, Norton, MS Office 365, etc...), configuring them to my specifications where a majority of the application's saved data will reside on an attached external USB drive versus the local SSD (which will only have the local OS and applications installed). Afterwards, I'll create a "Golden Recovery Image" that will be put into my own, self created "Recovery Partition" - and followed up with an external backup copy as well.
+
+B) BitLocker/Device Encryption is enabled within the Windows 11 environment. It also appears to be enabled within the BIOS/UEFI under the Security Tab where it has several Secure Boot variable Key Sources from the factory ranging from one Platform (PK ; 851), File System (2 each), and Key Exchange Keys (KEK ; three each ; 3918), and Authorized (db ; six each ; 8487) and Forbidden (dbx ; three each ; 21444) Signatures, along with Autorized TimeStamps (dbt ; 1565)
+ 
+C) I currently have a Windows 11 Pro retail/OEM License Key. I also have on hand several USB drives - one for backing up the necessary resources from the existing Windows 11 Home installation, and another for the Windows 11 Pro ISO. I also have on hand Macrium Reflect, Ventoy, and Rufus if we should need them.
+
+I also intend to upload several documents that contain information regarding previous conversations we've had in chats to establish some already established formatting, standards, parameters, and decisions we've made. But before I do there are two things that I need to know...
+Question 1) If I were to format this document using the following parameters would it be beneficial for us to resume where we left off at?...
+Example: Chat Document 1
+=============
+Chat 001-01
+=============
+Copy of the post you provided during said chat
+
+
+=============
+Chat 001-02
+=============
+Follow on conversation provided by what you've posted
+
+=============
+Chat 001-03
+=============
+Another conversation where some information was provided
+
+etc...
+Question 2) If I were to follow this formatting within said document how large of a file could you review, analyze, recall/remember and work with as we continue to move forward in this project?
+
+Please hold all comments as I continue to feed you the aforementioned documents, I'll let you know once "I'm Finished with the Uploads". Just let me know if you received each of the documents by providing me with the size of the uploaded file to ensure it was not modified, truncated or lost during the upload.

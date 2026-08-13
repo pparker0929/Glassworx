@@ -1,0 +1,7 @@
+﻿
+FullName                                                                        Length LastWriteTime         Attributes
+--------                                                                        ------ -------------         ----------
+R:\$RECYCLE.BIN\S-1-5-21-1167111324-1314471986-2373143486-1001\desktop.ini         129 8/9/2026 6:19:13 AM   ...Archive
+R:\Recovery\RecoveryImage\ASUS.swm                                         23120679673 11/15/2025 7:37:07 PM    Archive
+
+

@@ -1,0 +1,76 @@
+
+Host Name:                     ####-######### <<Obfuscated for Security Purposes**
+OS Name:                       Microsoft Windows 11 Home
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              #########@######.com <<Obfuscated for Security Purposes**
+Registered Organization:       N/A
+Product ID:                    00342-21564-42860-AAOEM
+Original Install Date:         8/5/2026, 6:17:45 AM
+System Boot Time:              8/7/2026, 5:30:28 AM
+System Manufacturer:           ASUSTeK COMPUTER INC.
+System Model:                  ROG Strix G18 G814FP_G814FP
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: AMD64 Family 26 Model 68 Stepping 0 AuthenticAMD ~2500 Mhz
+BIOS Version:                  American Megatrends International, LLC. G814FP.316, 5/14/2026
+Windows Directory:             C:\Windows
+System Directory:              C:\Windows\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  en-us;English (United States)
+Time Zone:                     (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:         31,928 MB
+Available Physical Memory:     24,217 MB
+Virtual Memory: Max Size:      37,048 MB
+Virtual Memory: Available:     27,848 MB
+Virtual Memory: In Use:        9,200 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\####-######### <<Obfuscated for Security Purposes**
+Hotfix(s):                     7 Hotfix(s) Installed.
+                               [01]: KB5100998
+                               [02]: KB5050575
+                               [03]: KB5054156
+                               [04]: KB5095189
+                               [05]: KB5101650
+                               [06]: KB5064485
+                               [07]: KB5120102
+Network Card(s):               3 NIC(s) Installed.
+                               [01]: MediaTek Wi-Fi 6E MT7922 (RZ616) 160MHz Wireless LAN Card
+                                     Connection Name: Wi-Fi
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     192.168.0.1 <<Obfuscated for Security Purposes**
+                                     IP address(es)
+                                     [01]: 192.168.0.20 <<Obfuscated for Security Purposes**
+                                     [02]: fe80::####:####:####:#### <<Obfuscated for Security Purposes**
+                               [02]: Realtek PCIe GbE Family Controller
+                                     Connection Name: Ethernet
+                                     Status:          Media disconnected
+                               [03]: Bluetooth Device (Personal Area Network)
+                                     Connection Name: Bluetooth Network Connection
+                                     Status:          Media disconnected
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     Secure Boot
+                                     DMA Protection
+                                     Secure Memory Overwrite
+                                     UEFI Code Readonly
+                                     Mode Based Execution Control
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                                     Secure Launch
+                                     SMM Firmware Measurement
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                                     Secure Launch
+                                     SMM Firmware Measurement
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Audit
+                               Security Features Enabled:
+                               SMM Isolation Level: 30
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.

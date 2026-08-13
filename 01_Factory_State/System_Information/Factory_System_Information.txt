@@ -1,0 +1,10 @@
+﻿
+
+WindowsProductName : Windows 10 Home
+WindowsVersion     : 2009
+OsBuildNumber      : 26200
+BiosVersion        : _ASUS_ - 1072009
+BiosReleaseDate    : 5/13/2026 5:00:00 PM
+
+
+
