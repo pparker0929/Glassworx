@@ -1,0 +1,57 @@
+ 99.2%
+ 99.2%
+ 99.2%
+ 99.3%
+ 99.3%
+ 99.3%
+ 99.4%
+ 99.4%
+ 99.4%
+ 99.5%
+ 99.5%
+ 99.5%
+ 99.6%
+ 99.6%
+ 99.6%
+ 99.7%
+ 99.7%
+ 99.7%
+ 99.8%
+ 99.8%
+ 99.8%
+ 99.9%
+ 99.9%
+100%  
+	  New Dir          2	R:\System Volume Information\
+	    New File  		   20480	tracking.log
+100%  
+	    New File  		      12	WPSettings.dat
+2026/08/10 12:22:20 ERROR 5 (0x00000005) Copying File R:\System Volume Information\WPSettings.dat
+Access is denied.
+Waiting 2 seconds... Retrying...
+	    New File  		      12	WPSettings.dat
+2026/08/10 12:22:22 ERROR 5 (0x00000005) Copying File R:\System Volume Information\WPSettings.dat
+Access is denied.
+Waiting 2 seconds... Retrying...
+	    New File  		      12	WPSettings.dat
+2026/08/10 12:22:24 ERROR 5 (0x00000005) Copying File R:\System Volume Information\WPSettings.dat
+Access is denied.
+
+ERROR: RETRY LIMIT EXCEEDED.
+
+	  New Dir          0	R:\System Volume Information\AadRecoveryPasswordDelete\
+	  New Dir          0	R:\System Volume Information\ClientRecoveryPasswordRotation\
+	  New Dir          0	R:\System Volume Information\FveDecryptedVolumeFolder\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         9         8         1         0         0         0
+   Files :         4         3         0         0         1         0
+   Bytes :  21.532 g  21.532 g         0         0        12         0
+   Times :   0:12:39   0:12:35                       0:00:04   0:00:00
+
+
+   Speed :           30,607,430 Bytes/sec.
+   Speed :            1,751.371 MegaBytes/min.
+   Ended : Monday, August 10, 2026 12:22:24 PM
