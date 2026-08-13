@@ -1,967 +1,0 @@
-
--------------------------------------------------------------------------------
-   ROBOCOPY     ::     Robust File Copy for Windows                              
--------------------------------------------------------------------------------
-
-  Started : Monday, August 10, 2026 12:52:00 PM
-   Source = M:\
-     Dest : D:\NewWinReBuild\Factory_Preservation\ASUS_MyASUS\
-
-    Files : *.*
-	    
-  Options : *.* /V /TEE /S /E /DCOPY:DAT /COPY:DAT /XJ /R:2 /W:2 
-
-------------------------------------------------------------------------------
-
-	                   0	M:\
-	  New Dir          7	M:\AsusWinRE\
-	    New File  		  575120	AsusWinRESelfUpdate.exe100%  
-	    New File  		     417	AsusWinRESelfUpdate.exe.manifest100%  
-	    New File  		      20	CopyFile.bat100%  
-	    New File  		     644	CopyFileL.bat100%  
-	    New File  		     539	CopyFileOld.bat100%  
-	    New File  		     644	CopyFilePattern.bat100%  
-	    New File  		     271	Install.cmd100%  
-	  New Dir          2	M:\AsusWinRE\Installer\
-	    New File  		  254616	AsusWinRELoadPartion.exe100%  
-	    New File  		     417	AsusWinRELoadPartion.exe.manifest100%  
-	  New Dir          5	M:\AsusWinRE\Launcher\
-	    New File  		  284024	AsusWinRELauncher.exe100%  
-	    New File  		     417	AsusWinRELauncher.exe.manifest100%  
-	    New File  		      52	AsusWinRELauncher.ini100%  
-	    New File  		  116944	AsusWinREStarter.exe100%  
-	    New File  		     417	AsusWinREStarter.exe.manifest100%  
-	  New Dir         19	M:\AsusWinRE\Main\
-	    New File  		   51248	AsusSAIO.sys100%  
-	    New File  		  502136	AsusSystemDiagnosis.dll100%  
-	    New File  		   2.1 m	AsusWinIO64.dll 47%   94%  100%  
-	    New File  		   4.8 m	AsusWinRE.exe 20%   41%   62%   82%  100%  
-	    New File  		     809	AsusWinRE.exe.manifest100%  
-	    New File  		  575120	AsusWinRESelfUpdate.exe100%  
-	    New File  		     417	AsusWinRESelfUpdate.exe.manifest100%  
-	    New File  		  212848	BluetoothApis.dll100%  
-	    New File  		  277368	bthprops.cpl100%  
-	    New File  		   2.1 m	BusinessIntelligenceCPlusLib.dll 46%   93%  100%  
-	    New File  		     348	Config.ini100%  
-	    New File  		     593	directui license.txt100%  
-	    New File  		    1354	duilib license.txt100%  
-	    New File  		   3.1 m	DuiLib_64u.dll 31%   62%   94%  100%  
-	    New File  		   5.3 m	mfc140u.dll 18%   37%   55%   74%   92%  100%  
-	    New File  		    1091	MIT License.txt100%  
-	    New File  		  625808	msvcp140.dll100%  
-	    New File  		   87200	vcruntime140.dll100%  
-	    New File  		   49560	vcruntime140_1.dll100%  
-	  New Dir          1	M:\AsusWinRE\Main\AsusCloudRecovery\
-	    New File  		  262800	AsusCloudRecoveryLauncher.exe100%  
-	  New Dir          8	M:\AsusWinRE\Main\AsusCloudRecovery\V1.1.6.0\
-	    New File  		   1.7 m	7z.dll 56%  100%  
-	    New File  		  567672	7z.exe100%  
-	    New File  		   1.8 m	AsusCloudRecovery.exe 53%  100%  
-	    New File  		  439160	AsusCloudRecoveryBI.exe100%  
-	    New File  		  376696	AsusCloudRecoveryUI.exe100%  
-	    New File  		    3990	LICENSE_7-Zip.txt100%  
-	    New File  		    1120	LICENSE_C++ REST SDK.txt100%  
-	    New File  		    1095	LICENSE_curl.txt100%  
-	  New Dir          3	M:\AsusWinRE\Main\Log\
-	    New File  		    1216	CRListEncrypt.txt100%  
-	    New File  		     364	OldAntSwitchTestListEncrypt.txt100%  
-	    New File  		     247	ProgramData.conf100%  
-	  New Dir         11	M:\AsusWinRE\Main\Log\KeyDef\
-	    New File  		     811	KeyDef_DE.conf100%  
-	    New File  		     811	KeyDef_ES.conf100%  
-	    New File  		     813	KeyDef_FR.conf100%  
-	    New File  		     815	KeyDef_HU.conf100%  
-	    New File  		     808	KeyDef_IT.conf100%  
-	    New File  		     899	KeyDef_JP.conf100%  
-	    New File  		     814	KeyDef_PT.conf100%  
-	    New File  		     807	KeyDef_PT_Brazilian.conf100%  
-	    New File  		     813	KeyDef_TR.conf100%  
-	    New File  		     813	KeyDef_TR_F.conf100%  
-	    New File  		     809	KeyDef_US_UK.conf100%  
-	  New Dir          2	M:\AsusWinRE\Main\skin\
-	    New File  		   13565	config.xml100%  
-	    New File  		     189	project.dui100%  
-	  New Dir          5	M:\AsusWinRE\Main\skin\images\
-	    New File  		   17813	check-select.png100%  
-	    New File  		    2836	check-unselect.png100%  
-	    New File  		    2879	collapse.png100%  
-	    New File  		    2950	expand.png100%  
-	    New File  		   37578	scrollbar.bmp100%  
-	  New Dir          0	M:\AsusWinRE\Main\skin\images\Img\
-	  New Dir          0	M:\AsusWinRE\Main\skin\images\Img\ADT_Home Page\
-	  New Dir          5	M:\AsusWinRE\Main\skin\images\Img\ADT_Home Page\4K\
-	    New File  		     709	ADT_scrollbar_black_2.png100%  
-	    New File  		     706	ADT_scrollbar_black_8.png100%  
-	    New File  		    1999	ADT_scrollbar_gray_2.png100%  
-	    New File  		    1996	ADT_scrollbar_gray_8.png100%  
-	    New File  		     713	ADT_scrollbar_hover_8.png100%  
-	  New Dir          0	M:\AsusWinRE\Main\skin\images\Img\ADT_Loding PNG Sequence\
-	  New Dir        102	M:\AsusWinRE\Main\skin\images\Img\ADT_Loding PNG Sequence\Big Circle_4K\
-	    New File  		   36543	Comp 3_00000.png100%  
-	    New File  		   15890	Comp 3_00001.png100%  
-	    New File  		   17241	Comp 3_00002.png100%  
-	    New File  		   18387	Comp 3_00003.png100%  
-	    New File  		   19499	Comp 3_00004.png100%  
-	    New File  		   20399	Comp 3_00005.png100%  
-	    New File  		   21468	Comp 3_00006.png100%  
-	    New File  		   22484	Comp 3_00007.png100%  
-	    New File  		   23603	Comp 3_00008.png100%  
-	    New File  		   24830	Comp 3_00009.png100%  
-	    New File  		   26134	Comp 3_00010.png100%  
-	    New File  		   27606	Comp 3_00011.png100%  
-	    New File  		   29231	Comp 3_00012.png100%  
-	    New File  		   30830	Comp 3_00013.png100%  
-	    New File  		   32240	Comp 3_00014.png100%  
-	    New File  		   33850	Comp 3_00015.png100%  
-	    New File  		   35414	Comp 3_00016.png100%  
-	    New File  		   36813	Comp 3_00017.png100%  
-	    New File  		   38129	Comp 3_00018.png100%  
-	    New File  		   39348	Comp 3_00019.png100%  
-	    New File  		   40538	Comp 3_00020.png100%  
-	    New File  		   41550	Comp 3_00021.png100%  
-	    New File  		   42775	Comp 3_00022.png100%  
-	    New File  		   43894	Comp 3_00023.png100%  
-	    New File  		   44795	Comp 3_00024.png100%  
-	    New File  		   45451	Comp 3_00025.png100%  
-	    New File  		   46103	Comp 3_00026.png100%  
-	    New File  		   46628	Comp 3_00027.png100%  
-	    New File  		   47571	Comp 3_00028.png100%  
-	    New File  		   48590	Comp 3_00029.png100%  
-	    New File  		   49755	Comp 3_00030.png100%  
-	    New File  		   51080	Comp 3_00031.png100%  
-	    New File  		   52333	Comp 3_00032.png100%  
-	    New File  		   53676	Comp 3_00033.png100%  
-	    New File  		   55050	Comp 3_00034.png100%  
-	    New File  		   56565	Comp 3_00035.png100%  
-	    New File  		   58114	Comp 3_00036.png100%  
-	    New File  		   59602	Comp 3_00037.png100%  
-	    New File  		   60972	Comp 3_00038.png100%  
-	    New File  		   62212	Comp 3_00039.png100%  
-	    New File  		   63606	Comp 3_00040.png100%  
-	    New File  		   64924	Comp 3_00041.png100%  
-	    New File  		   66121	Comp 3_00042.png100%  
-	    New File  		   67192	Comp 3_00043.png100%  
-	    New File  		   68317	Comp 3_00044.png100%  
-	    New File  		   69163	Comp 3_00045.png100%  
-	    New File  		   70163	Comp 3_00046.png100%  
-	    New File  		   70872	Comp 3_00047.png100%  
-	    New File  		   71752	Comp 3_00048.png100%  
-	    New File  		   72393	Comp 3_00049.png100%  
-	    New File  		   72851	Comp 3_00050.png100%  
-	    New File  		   73547	Comp 3_00051.png100%  
-	    New File  		   74157	Comp 3_00052.png100%  
-	    New File  		   75159	Comp 3_00053.png100%  
-	    New File  		   76345	Comp 3_00054.png100%  
-	    New File  		   77363	Comp 3_00055.png100%  
-	    New File  		   78148	Comp 3_00056.png100%  
-	    New File  		   79294	Comp 3_00057.png100%  
-	    New File  		   80507	Comp 3_00058.png100%  
-	    New File  		   81853	Comp 3_00059.png100%  
-	    New File  		   83162	Comp 3_00060.png100%  
-	    New File  		   84596	Comp 3_00061.png100%  
-	    New File  		   86063	Comp 3_00062.png100%  
-	    New File  		   87586	Comp 3_00063.png100%  
-	    New File  		   88978	Comp 3_00064.png100%  
-	    New File  		   90428	Comp 3_00065.png100%  
-	    New File  		   91853	Comp 3_00066.png100%  
-	    New File  		   93209	Comp 3_00067.png100%  
-	    New File  		   94349	Comp 3_00068.png100%  
-	    New File  		   95572	Comp 3_00069.png100%  
-	    New File  		   96672	Comp 3_00070.png100%  
-	    New File  		   97766	Comp 3_00071.png100%  
-	    New File  		   98695	Comp 3_00072.png100%  
-	    New File  		   99545	Comp 3_00073.png100%  
-	    New File  		  100250	Comp 3_00074.png100%  
-	    New File  		  100788	Comp 3_00075.png100%  
-	    New File  		  101291	Comp 3_00076.png100%  
-	    New File  		  101726	Comp 3_00077.png100%  
-	    New File  		  102561	Comp 3_00078.png100%  
-	    New File  		  103633	Comp 3_00079.png100%  
-	    New File  		  104704	Comp 3_00080.png100%  
-	    New File  		  105861	Comp 3_00081.png100%  
-	    New File  		  107145	Comp 3_00082.png100%  
-	    New File  		  108437	Comp 3_00083.png100%  
-	    New File  		  109687	Comp 3_00084.png100%  
-	    New File  		  111131	Comp 3_00085.png100%  
-	    New File  		  112469	Comp 3_00086.png100%  
-	    New File  		  113914	Comp 3_00087.png100%  
-	    New File  		  115339	Comp 3_00088.png100%  
-	    New File  		  116693	Comp 3_00089.png100%  
-	    New File  		  118259	Comp 3_00090.png100%  
-	    New File  		  119680	Comp 3_00091.png100%  
-	    New File  		  120799	Comp 3_00092.png100%  
-	    New File  		  121916	Comp 3_00093.png100%  
-	    New File  		  122879	Comp 3_00094.png100%  
-	    New File  		  123782	Comp 3_00095.png100%  
-	    New File  		  124690	Comp 3_00096.png100%  
-	    New File  		  125334	Comp 3_00097.png100%  
-	    New File  		  125800	Comp 3_00098.png100%  
-	    New File  		  125648	Comp 3_00099.png100%  
-	    New File  		  124595	Comp 3_00100.png100%  
-	    New File  		    6148	_DS_Store100%  
-	  New Dir          2	M:\AsusWinRE\Main\skin\images\Img\ADT_Loding PNG Sequence\Loading Circle_FHD\
-	    New File  		   20718	Comp_3s.gif100%  
-	    New File  		    6148	_DS_Store100%  
-	  New Dir          0	M:\AsusWinRE\Main\skin\images\UI_2_0\
-	  New Dir         34	M:\AsusWinRE\Main\skin\images\UI_2_0\Background\
-	    New File  		    2003	-ge-keyboardTest_keycard.png100%  
-	    New File  		    2141	-ge-keyboardTest_keycard_press.png100%  
-	    New File  		   3.2 m	20211207 BG.png 31%   62%   93%  100%  
-	    New File  		    4180	asus-adt-asus-recovery-png2x.png100%  
-	    New File  		    4784	asus-adt-system-diagnosis-png2x.png100%  
-	    New File  		   10583	asus_ADT_system_bg_gray.png100%  
-	    New File  		   66955	asus_myasus_img_welecome2x.png100%  
-	    New File  		    3049	BG-Display test2x.png100%  
-	    New File  		   85640	BG1280x960.png100%  
-	    New File  		   83796	BG1366x768.png100%  
-	    New File  		   78765	BG1440x900.png100%  
-	    New File  		   56967	command-bar-new-arab-png2x.png100%  
-	    New File  		   17967	command-bar-new-png.png100%  
-	    New File  		    1264	command-bar-triangle-arab-png2x.png100%  
-	    New File  		    7328	component-illustrator-png.png100%  
-	    New File  		     985	home-sortinng-dropdown-2-png2x.png100%  
-	    New File  		    4303	ic_fluent_copilot_64_256.png100%  
-	    New File  		     600	Mask-usb test2x.png100%  
-	    New File  		   10696	myasus-bg-left-arab-png2x.png100%  
-	    New File  		    3061	myasus_bg_pattern_lft_lt.png100%  
-	    New File  		     707	myasus_bg_pattern_r_lt.png100%  
-	    New File  		    4711	privacy-policy-illustrate-png2x.png100%  
-	    New File  		    6736	test-illustrator-png.png100%  
-	    New File  		    3845	test-page-display-menu-card2x.png100%  
-	    New File  		  260404	test-page-display-test-1366.png100%  
-	    New File  		   95060	test-page-display-test-1440-png.png100%  
-	    New File  		  141170	test-page-display-test-1920-bottom.png100%  
-	    New File  		  135781	test-page-display-test-1920-top.png100%  
-	    New File  		  174797	test-page-display-test-1920.png100%  
-	    New File  		  518168	test-page-display-test-3200-png.png100%  
-	    New File  		    4712	test-page-touchpad-card-png2x.png100%  
-	    New File  		    1489	test-report-illustrator-png.png100%  
-	    New File  		    3726	usb_test_device_bg.png100%  
-	    New File  		   57198	welcome-illustrate-png2x.png100%  
-	  New Dir         15	M:\AsusWinRE\Main\skin\images\UI_2_0\Button\
-	    New File  		    1746	asus-adt-asus-recovery-s.png100%  
-	    New File  		    1973	asus-adt-cloud-recovery-s.png100%  
-	    New File  		    4037	asus-adt-cloud-recovery-s2xEx.png100%  
-	    New File  		    1897	asus-adt-system-diagnosis-m.png100%  
-	    New File  		    3766	asus-adt-system-diagnosis-s2xEx.png100%  
-	    New File  		     801	button_close_h.png100%  
-	    New File  		     205	button_close_n.png100%  
-	    New File  		    1091	button_close_p.png100%  
-	    New File  		     249	home-sortinng-dropdown-1-png2x.png100%  
-	    New File  		     272	home-sortinng-dropdown-hover2x.png100%  
-	    New File  		     148	icon-back-hover2x.png100%  
-	    New File  		     154	icon-back-normal2x.png100%  
-	    New File  		     289	icon_collapse2x.png100%  
-	    New File  		     261	sortinng-dropdown-png2x.png100%  
-	    New File  		    1636	test-page-display-menu btn2x.png100%  
-	  New Dir         81	M:\AsusWinRE\Main\skin\images\UI_2_0\Icon\
-	    New File  		    5190	asus-adt-local-backup-complete2x.png100%  
-	    New File  		     357	asus-icon-fail-s-png.png100%  
-	    New File  		     327	asus-icon-pass-s-png.png100%  
-	    New File  		     318	asus-icon-warning-s-png.png100%  
-	    New File  		    1760	asus-img_noitem2x.png100%  
-	    New File  		     361	asus_ADT_ic_Down_h.png100%  
-	    New File  		     358	asus_ADT_ic_Up_h.png100%  
-	    New File  		    7083	bitlockerqrcode.png100%  
-	    New File  		     655	component-test-full-icon-png2x.png100%  
-	    New File  		     380	component-test-quick-icon-png-black.png100%  
-	    New File  		     380	component-test-quick-icon-png-white.png100%  
-	    New File  		     675	component-test-quick-icon-png2x.png100%  
-	    New File  		     381	display-icon-png.png100%  
-	    New File  		     698	display-icon-png2x.png100%  
-	    New File  		     996	display-icon-png3x.png100%  
-	    New File  		     753	fail-icon-png.png100%  
-	    New File  		    1851	fan-icon-png.png100%  
-	    New File  		    4075	fan-icon-png2x.png100%  
-	    New File  		    6351	fan-icon-png3x.png100%  
-	    New File  		     633	hhd-icon-png.png100%  
-	    New File  		    1226	hhd-icon-png2x.png100%  
-	    New File  		    1873	hhd-icon-png3x.png100%  
-	    New File  		     242	icon-check-hover-indeterminate2x.png100%  
-	    New File  		     234	icon-check-hover-png2x.png100%  
-	    New File  		     400	icon-check-hover-seletced-png2x.png100%  
-	    New File  		     272	icon-check-indeterminate2x.png100%  
-	    New File  		     447	icon-check-nomal-png2x.png100%  
-	    New File  		     422	icon-check-nomal-seletcted-png2x.png100%  
-	    New File  		     316	icon-close-eye-normal-png2x.png100%  
-	    New File  		     178	icon-close-hover-png.png100%  
-	    New File  		     178	icon-close-normal-png.png100%  
-	    New File  		     175	icon-close-press-png.png100%  
-	    New File  		     221	icon-lock-png2x.png100%  
-	    New File  		     455	icon-open-eye-press-png2x.png100%  
-	    New File  		     376	icon-wifi-png2x-2 .png100%  
-	    New File  		     305	icon-wifi-png2x-l-1.png100%  
-	    New File  		     393	icon-wifi-png2x.png100%  
-	    New File  		     325	icon_expand3x.png100%  
-	    New File  		     436	icon_infomation2x.png100%  
-	    New File  		     738	icon_one-click-png.png100%  
-	    New File  		    1084	icon_one-click-png2x.png100%  
-	    New File  		    1538	icon_one-click-png3x.png100%  
-	    New File  		     281	keyboard-icon-png.png100%  
-	    New File  		     511	keyboard-icon-png2x.png100%  
-	    New File  		     744	keyboard-icon-png3x.png100%  
-	    New File  		    4042	myasus-img-error2x.png100%  
-	    New File  		    2352	myasus-img-repair2x.png100%  
-	    New File  		    2591	myasus-img-success2x.png100%  
-	    New File  		    6732	myasus_new_update_found.png100%  
-	    New File  		    1826	pass-icon-png.png100%  
-	    New File  		    1480	pass-icon-png2x.png100%  
-	    New File  		     669	power-icon-png.png100%  
-	    New File  		    1241	power-icon-png2x.png100%  
-	    New File  		    1763	power-icon-png3x.png100%  
-	    New File  		   19891	qrcode.png100%  
-	    New File  		     276	ram-icon-png.png100%  
-	    New File  		     501	ram-icon-png2x.png100%  
-	    New File  		     680	ram-icon-png3x.png100%  
-	    New File  		     442	ssd-icon-png.png100%  
-	    New File  		     713	ssd-icon-png2x.png100%  
-	    New File  		    1100	ssd-icon-png3x.png100%  
-	    New File  		    1816	test-report-no-component-icon-png.png100%  
-	    New File  		     946	touch-icon-png.png100%  
-	    New File  		    2040	touch-icon-png2x.png100%  
-	    New File  		    3220	touch-icon-png3x.png100%  
-	    New File  		     326	touchpad-icon-png.png100%  
-	    New File  		     604	touchpad-icon-png2x.png100%  
-	    New File  		     857	touchpad-icon-png3x.png100%  
-	    New File  		    1793	touchpad-test-icon-complete-png2x.png100%  
-	    New File  		     561	usb-icon-png.png100%  
-	    New File  		    1053	usb-icon-png2x.png100%  
-	    New File  		    1487	usb-icon-png3x.png100%  
-	    New File  		    1626	warning-icon-l-png2x.png100%  
-	    New File  		     776	warning-icon-png.png100%  
-	    New File  		   36821	wechat_customer_qrcode.png100%  
-	    New File  		     768	wifi-icon-png.png100%  
-	    New File  		    1650	wifi-icon-png2x.png100%  
-	    New File  		    2445	wifi-icon-png3x.png100%  
-	    New File  		     809	wifi-reorganize-hover-icon-png2x.png100%  
-	    New File  		    1196	wifi-reorganize-icon-png2x.png100%  
-	    New File  		     854	wifi-reorganize-press-icon-png2x.png100%  
-	  New Dir          6	M:\AsusWinRE\Main\skin\images\UI_2_0\Touchpad\
-	    New File  		     249	test-page-touchpad-following-arrow-d-png2x.png100%  
-	    New File  		     372	test-page-touchpad-following-arrow-r-png2x.png100%  
-	    New File  		     436	test-page-touchpad-following-arrow-rtl-png2x.png100%  
-	    New File  		     415	test-page-touchpad-following-rectangle-2-png2x.png100%  
-	    New File  		     498	test-page-touchpad-following-rectangle-png2x.png100%  
-	    New File  		     357	test-page-touchpad-following-square-png2x.png100%  
-	  New Dir         25	M:\AsusWinRE\Main\skin\lang\
-	    New File  		  123428	arabic.xml100%  
-	    New File  		  107032	brazilian.xml100%  
-	    New File  		  107994	czech.xml100%  
-	    New File  		  102635	english.xml100%  
-	    New File  		  108103	europe.xml100%  
-	    New File  		  110282	french.xml100%  
-	    New File  		  111593	german.xml100%  
-	    New File  		  114025	hebrew.xml100%  
-	    New File  		  111672	hungarian.xml100%  
-	    New File  		  105054	indonesian.xml100%  
-	    New File  		  106871	italian.xml100%  
-	    New File  		  117033	japanese.xml100%  
-	    New File  		  110634	korean.xml100%  
-	    New File  		  106840	nederlands.xml100%  
-	    New File  		  110936	polish.xml100%  
-	    New File  		  109774	romanian.xml100%  
-	    New File  		  135194	russia.xml100%  
-	    New File  		   98299	simplified.xml100%  
-	    New File  		  110149	spanish.xml100%  
-	    New File  		  104976	swedish.xml100%  
-	    New File  		  154966	thai.xml100%  
-	    New File  		   98315	traditional.xml100%  
-	    New File  		  107421	turkish.xml100%  
-	    New File  		  130875	ukrainian.xml100%  
-	    New File  		  116032	vietnamese.xml100%  
-	  New Dir         67	M:\AsusWinRE\Main\skin\PageDialog\
-	    New File  		    1497	DialogBackupFailList.xml100%  
-	    New File  		    1718	DialogBackupFile.xml100%  
-	    New File  		    1699	DialogBackupFileComplete.xml100%  
-	    New File  		    2456	DialogBackupFileFail.xml100%  
-	    New File  		    2008	DialogBackupLocalDisk.xml100%  
-	    New File  		    2552	DialogBitLockUnlockC.xml100%  
-	    New File  		    3140	DialogBitLockUnlockD.xml100%  
-	    New File  		     389	DialogBoardMaskGeneral.xml100%  
-	    New File  		     589	DialogCalculateFiles.xml100%  
-	    New File  		     589	DialogCloudRecovery.xml100%  
-	    New File  		    1449	DialogCloudRecoveryOutOfWarranty.xml100%  
-	    New File  		    1582	DialogCloudRecoveryOutOfWarrantySupport.xml100%  
-	    New File  		     589	DialogDeviceDetect.xml100%  
-	    New File  		    1343	DialogDeviceSelect.xml100%  
-	    New File  		    1498	DialogDiskTestTypeQuick.xml100%  
-	    New File  		     254	DialogDisplayTestIconTip.xml100%  
-	    New File  		     914	DialogDisplayTestWordLine.xml100%  
-	    New File  		    1636	DialogEULA.xml100%  
-	    New File  		    1049	DialogLanguage.xml100%  
-	    New File  		     382	DialogMainFormBGMask.xml100%  
-	    New File  		    1161	DialogNewUpdateFound.xml100%  
-	    New File  		     852	DialogPPConfirm.xml100%  
-	    New File  		    1595	DialogPrivacyPolicySelect.xml100%  
-	    New File  		    1308	DialogPrivacyPolicyStatus.xml100%  
-	    New File  		     327	DialogRAMProtect.xml100%  
-	    New File  		    2397	DialogRAMTestType.xml100%  
-	    New File  		    2244	DialogRecoveryDiskSelect.xml100%  
-	    New File  		     589	DialogRestartingADT.xml100%  
-	    New File  		     844	DialogRetryCancel.xml100%  
-	    New File  		     133	DialogScreenMask.xml100%  
-	    New File  		    1254	DialogSystemRepair.xml100%  
-	    New File  		    1128	DialogSystemRepairDone.xml100%  
-	    New File  		    1336	DialogTestReport.xml100%  
-	    New File  		    1822	DialogTestRunningDisplay.xml100%  
-	    New File  		     873	DialogTestTipLittle.xml100%  
-	    New File  		     360	DialogToolTip.xml100%  
-	    New File  		     589	DialogUpdating.xml100%  
-	    New File  		    1337	DialogUserBackupConfirm.xml100%  
-	    New File  		    1718	DialogUserBitlockUnlockConfirm.xml100%  
-	    New File  		     843	DialogUserConfirm.xml100%  
-	    New File  		    1374	DialogUserRecoveryConfirm.xml100%  
-	    New File  		     843	DialogUserRetry.xml100%  
-	    New File  		    1620	DialogUserSkipBitlockUnlockConfirm.xml100%  
-	    New File  		    1338	DialogUserSkipWLANConnectConfirm.xml100%  
-	    New File  		     744	DialogWarning.xml100%  
-	    New File  		    3714	DialogWelcomePageOne.xml100%  
-	    New File  		    5957	DialogWelcomePageThree.xml100%  
-	    New File  		    4997	DialogWelcomePageTwoCloud.xml100%  
-	    New File  		    4657	DialogWelcomePageTwoGaming.xml100%  
-	    New File  		    1938	DialogWiFiAPSelect.xml100%  
-	    New File  		    2563	DialogWiFiConnectAuth.xml100%  
-	    New File  		    2991	DialogWiFiConnectAuthHidden.xml100%  
-	    New File  		     589	DialogWiFiConnecting.xml100%  
-	    New File  		     576	ListItemBackupFailFile.xml100%  
-	    New File  		     663	ListItemCloudRecoveryDisk.xml100%  
-	    New File  		    1008	ListItemComponentCard.xml100%  
-	    New File  		     392	ListItemDeviceName.xml100%  
-	    New File  		     525	ListItemFolderFile.xml100%  
-	    New File  		     384	ListItemLocalDisk.xml100%  
-	    New File  		    1546	ListItemOneClickCard.xml100%  
-	    New File  		     422	ListItemTestHistory.xml100%  
-	    New File  		     636	ListItemTestSubItem.xml100%  
-	    New File  		     496	ListItemUSBDevice.xml100%  
-	    New File  		     656	ListItemWiFiAP.xml100%  
-	    New File  		    2292	WidgetTpClickTest.xml100%  
-	    New File  		     675	WidgetTpGhostTouchTest.xml100%  
-	    New File  		    2399	WidgetTpLineTest.xml100%  
-	  New Dir         16	M:\AsusWinRE\Main\skin\PageMain\
-	    New File  		    4258	BoardBackupSelectLocalFile.xml100%  
-	    New File  		    1511	BoardCloudRecovery.xml100%  
-	    New File  		    4073	BoardComponentTest.xml100%  
-	    New File  		    5283	BoardRunningDisplay.xml100%  
-	    New File  		    3545	BoardRunningKeyboard.xml100%  
-	    New File  		    4268	BoardRunningTouchpad.xml100%  
-	    New File  		    4334	BoardRunningUSB.xml100%  
-	    New File  		    4978	BoardTestHistory.xml100%  
-	    New File  		    6815	BoardTestReportDetail.xml100%  
-	    New File  		    5961	BoardTestRunningGeneral.xml100%  
-	    New File  		    4600	BoardTestRunningOneClick.xml100%  
-	    New File  		    3920	WidgetDisplayTest.xml100%  
-	    New File  		    5998	WidgetGeneralTest.xml100%  
-	    New File  		    2392	WidgetKeyboardTest.xml100%  
-	    New File  		    4334	WidgetTouchpadTest.xml100%  
-	    New File  		    2813	WidgetUSBTest.xml100%  
-	  New Dir          0	M:\AsusWinRE\Main\tool\
-	  New Dir          2	M:\AsusWinRE\Main\tool\curl\
-	    New File  		  601544	curl.exe100%  
-	    New File  		    1095	MIT License.txt100%  
-	  New Dir          0	M:\AsusWinRE\Main\tool\RSSI\
-	  New Dir          0	M:\AsusWinRE\Main\tool\RSSI\AntSwitchTest\
-	  New Dir          5	M:\AsusWinRE\Main\tool\RSSI\AntSwitchTest\AntSwitchTest\
-	    New File  		  124416	AntSwitchTest.exe100%  
-	    New File  		    1290	toolconf.example_GZ700.ini100%  
-	    New File  		    1290	toolconf.ini100%  
-	    New File  		    1290	toolconf_example_GX531.ini100%  
-	    New File  		     138	Usage.txt100%  
-	  New Dir          5	M:\AsusWinRE\Main\tool\RSSI\AntSwitchTest\NewAntSwitchTest\
-	    New File  		  131584	AntSwitchTest.exe100%  
-	    New File  		    1290	toolconf.example_GZ700.ini100%  
-	    New File  		    1420	toolconf.ini100%  
-	    New File  		    1290	toolconf_example_GX531.ini100%  
-	    New File  		     203	Usage.txt100%  
-	  New Dir          1	M:\AsusWinRE\Main\tool\RSSI\MTK\
-	    New File  		   1.2 m	mtkoemx.exe 80%  100%  
-	  New Dir          4	M:\AsusWinRE\Main\tool\RSSI\RTK\
-	    New File  		     348	Config.ini100%  
-	    New File  		  864616	RtlWlanAnt.exe100%  
-	    New File  		     279	Test.bat100%  
-	    New File  		   2.5 m	wlanCliDLL.dll 39%   79%  100%  
-	  New Dir          1	M:\AsusWinRE\Main\tool\sc\
-	    New File  		   80240	sc.exe100%  
-	  New Dir          7	M:\AsusWinREBackup\
-	    New File  		  575120	AsusWinRESelfUpdate.exe100%  
-	    New File  		     417	AsusWinRESelfUpdate.exe.manifest100%  
-	    New File  		      20	CopyFile.bat100%  
-	    New File  		     644	CopyFileL.bat100%  
-	    New File  		     539	CopyFileOld.bat100%  
-	    New File  		     644	CopyFilePattern.bat100%  
-	    New File  		     271	Install.cmd100%  
-	  New Dir          2	M:\AsusWinREBackup\Installer\
-	    New File  		  254616	AsusWinRELoadPartion.exe100%  
-	    New File  		     417	AsusWinRELoadPartion.exe.manifest100%  
-	  New Dir          5	M:\AsusWinREBackup\Launcher\
-	    New File  		  284024	AsusWinRELauncher.exe100%  
-	    New File  		     417	AsusWinRELauncher.exe.manifest100%  
-	    New File  		      52	AsusWinRELauncher.ini100%  
-	    New File  		  116944	AsusWinREStarter.exe100%  
-	    New File  		     417	AsusWinREStarter.exe.manifest100%  
-	  New Dir         19	M:\AsusWinREBackup\Main\
-	    New File  		   51248	AsusSAIO.sys100%  
-	    New File  		  502136	AsusSystemDiagnosis.dll100%  
-	    New File  		   2.1 m	AsusWinIO64.dll 47%   94%  100%  
-	    New File  		   4.8 m	AsusWinRE.exe 20%   41%   62%   82%  100%  
-	    New File  		     809	AsusWinRE.exe.manifest100%  
-	    New File  		  575120	AsusWinRESelfUpdate.exe100%  
-	    New File  		     417	AsusWinRESelfUpdate.exe.manifest100%  
-	    New File  		  212848	BluetoothApis.dll100%  
-	    New File  		  277368	bthprops.cpl100%  
-	    New File  		   2.1 m	BusinessIntelligenceCPlusLib.dll 46%   93%  100%  
-	    New File  		     348	Config.ini100%  
-	    New File  		     593	directui license.txt100%  
-	    New File  		    1354	duilib license.txt100%  
-	    New File  		   3.1 m	DuiLib_64u.dll 31%   62%   94%  100%  
-	    New File  		   5.3 m	mfc140u.dll 18%   37%   55%   74%   92%  100%  
-	    New File  		    1091	MIT License.txt100%  
-	    New File  		  625808	msvcp140.dll100%  
-	    New File  		   87200	vcruntime140.dll100%  
-	    New File  		   49560	vcruntime140_1.dll100%  
-	  New Dir          1	M:\AsusWinREBackup\Main\AsusCloudRecovery\
-	    New File  		  262800	AsusCloudRecoveryLauncher.exe100%  
-	  New Dir          8	M:\AsusWinREBackup\Main\AsusCloudRecovery\V1.1.6.0\
-	    New File  		   1.7 m	7z.dll 56%  100%  
-	    New File  		  567672	7z.exe100%  
-	    New File  		   1.8 m	AsusCloudRecovery.exe 53%  100%  
-	    New File  		  439160	AsusCloudRecoveryBI.exe100%  
-	    New File  		  376696	AsusCloudRecoveryUI.exe100%  
-	    New File  		    3990	LICENSE_7-Zip.txt100%  
-	    New File  		    1120	LICENSE_C++ REST SDK.txt100%  
-	    New File  		    1095	LICENSE_curl.txt100%  
-	  New Dir          4	M:\AsusWinREBackup\Main\Log\
-	    New File  		       0	Backkup.flag
-	    New File  		    1216	CRListEncrypt.txt100%  
-	    New File  		     364	OldAntSwitchTestListEncrypt.txt100%  
-	    New File  		     247	ProgramData.conf100%  
-	  New Dir         11	M:\AsusWinREBackup\Main\Log\KeyDef\
-	    New File  		     811	KeyDef_DE.conf100%  
-	    New File  		     811	KeyDef_ES.conf100%  
-	    New File  		     813	KeyDef_FR.conf100%  
-	    New File  		     815	KeyDef_HU.conf100%  
-	    New File  		     808	KeyDef_IT.conf100%  
-	    New File  		     899	KeyDef_JP.conf100%  
-	    New File  		     814	KeyDef_PT.conf100%  
-	    New File  		     807	KeyDef_PT_Brazilian.conf100%  
-	    New File  		     813	KeyDef_TR.conf100%  
-	    New File  		     813	KeyDef_TR_F.conf100%  
-	    New File  		     809	KeyDef_US_UK.conf100%  
-	  New Dir          2	M:\AsusWinREBackup\Main\skin\
-	    New File  		   13565	config.xml100%  
-	    New File  		     189	project.dui100%  
-	  New Dir          5	M:\AsusWinREBackup\Main\skin\images\
-	    New File  		   17813	check-select.png100%  
-	    New File  		    2836	check-unselect.png100%  
-	    New File  		    2879	collapse.png100%  
-	    New File  		    2950	expand.png100%  
-	    New File  		   37578	scrollbar.bmp100%  
-	  New Dir          0	M:\AsusWinREBackup\Main\skin\images\Img\
-	  New Dir          0	M:\AsusWinREBackup\Main\skin\images\Img\ADT_Home Page\
-	  New Dir          5	M:\AsusWinREBackup\Main\skin\images\Img\ADT_Home Page\4K\
-	    New File  		     709	ADT_scrollbar_black_2.png100%  
-	    New File  		     706	ADT_scrollbar_black_8.png100%  
-	    New File  		    1999	ADT_scrollbar_gray_2.png100%  
-	    New File  		    1996	ADT_scrollbar_gray_8.png100%  
-	    New File  		     713	ADT_scrollbar_hover_8.png100%  
-	  New Dir          0	M:\AsusWinREBackup\Main\skin\images\Img\ADT_Loding PNG Sequence\
-	  New Dir        102	M:\AsusWinREBackup\Main\skin\images\Img\ADT_Loding PNG Sequence\Big Circle_4K\
-	    New File  		   36543	Comp 3_00000.png100%  
-	    New File  		   15890	Comp 3_00001.png100%  
-	    New File  		   17241	Comp 3_00002.png100%  
-	    New File  		   18387	Comp 3_00003.png100%  
-	    New File  		   19499	Comp 3_00004.png100%  
-	    New File  		   20399	Comp 3_00005.png100%  
-	    New File  		   21468	Comp 3_00006.png100%  
-	    New File  		   22484	Comp 3_00007.png100%  
-	    New File  		   23603	Comp 3_00008.png100%  
-	    New File  		   24830	Comp 3_00009.png100%  
-	    New File  		   26134	Comp 3_00010.png100%  
-	    New File  		   27606	Comp 3_00011.png100%  
-	    New File  		   29231	Comp 3_00012.png100%  
-	    New File  		   30830	Comp 3_00013.png100%  
-	    New File  		   32240	Comp 3_00014.png100%  
-	    New File  		   33850	Comp 3_00015.png100%  
-	    New File  		   35414	Comp 3_00016.png100%  
-	    New File  		   36813	Comp 3_00017.png100%  
-	    New File  		   38129	Comp 3_00018.png100%  
-	    New File  		   39348	Comp 3_00019.png100%  
-	    New File  		   40538	Comp 3_00020.png100%  
-	    New File  		   41550	Comp 3_00021.png100%  
-	    New File  		   42775	Comp 3_00022.png100%  
-	    New File  		   43894	Comp 3_00023.png100%  
-	    New File  		   44795	Comp 3_00024.png100%  
-	    New File  		   45451	Comp 3_00025.png100%  
-	    New File  		   46103	Comp 3_00026.png100%  
-	    New File  		   46628	Comp 3_00027.png100%  
-	    New File  		   47571	Comp 3_00028.png100%  
-	    New File  		   48590	Comp 3_00029.png100%  
-	    New File  		   49755	Comp 3_00030.png100%  
-	    New File  		   51080	Comp 3_00031.png100%  
-	    New File  		   52333	Comp 3_00032.png100%  
-	    New File  		   53676	Comp 3_00033.png100%  
-	    New File  		   55050	Comp 3_00034.png100%  
-	    New File  		   56565	Comp 3_00035.png100%  
-	    New File  		   58114	Comp 3_00036.png100%  
-	    New File  		   59602	Comp 3_00037.png100%  
-	    New File  		   60972	Comp 3_00038.png100%  
-	    New File  		   62212	Comp 3_00039.png100%  
-	    New File  		   63606	Comp 3_00040.png100%  
-	    New File  		   64924	Comp 3_00041.png100%  
-	    New File  		   66121	Comp 3_00042.png100%  
-	    New File  		   67192	Comp 3_00043.png100%  
-	    New File  		   68317	Comp 3_00044.png100%  
-	    New File  		   69163	Comp 3_00045.png100%  
-	    New File  		   70163	Comp 3_00046.png100%  
-	    New File  		   70872	Comp 3_00047.png100%  
-	    New File  		   71752	Comp 3_00048.png100%  
-	    New File  		   72393	Comp 3_00049.png100%  
-	    New File  		   72851	Comp 3_00050.png100%  
-	    New File  		   73547	Comp 3_00051.png100%  
-	    New File  		   74157	Comp 3_00052.png100%  
-	    New File  		   75159	Comp 3_00053.png100%  
-	    New File  		   76345	Comp 3_00054.png100%  
-	    New File  		   77363	Comp 3_00055.png100%  
-	    New File  		   78148	Comp 3_00056.png100%  
-	    New File  		   79294	Comp 3_00057.png100%  
-	    New File  		   80507	Comp 3_00058.png100%  
-	    New File  		   81853	Comp 3_00059.png100%  
-	    New File  		   83162	Comp 3_00060.png100%  
-	    New File  		   84596	Comp 3_00061.png100%  
-	    New File  		   86063	Comp 3_00062.png100%  
-	    New File  		   87586	Comp 3_00063.png100%  
-	    New File  		   88978	Comp 3_00064.png100%  
-	    New File  		   90428	Comp 3_00065.png100%  
-	    New File  		   91853	Comp 3_00066.png100%  
-	    New File  		   93209	Comp 3_00067.png100%  
-	    New File  		   94349	Comp 3_00068.png100%  
-	    New File  		   95572	Comp 3_00069.png100%  
-	    New File  		   96672	Comp 3_00070.png100%  
-	    New File  		   97766	Comp 3_00071.png100%  
-	    New File  		   98695	Comp 3_00072.png100%  
-	    New File  		   99545	Comp 3_00073.png100%  
-	    New File  		  100250	Comp 3_00074.png100%  
-	    New File  		  100788	Comp 3_00075.png100%  
-	    New File  		  101291	Comp 3_00076.png100%  
-	    New File  		  101726	Comp 3_00077.png100%  
-	    New File  		  102561	Comp 3_00078.png100%  
-	    New File  		  103633	Comp 3_00079.png100%  
-	    New File  		  104704	Comp 3_00080.png100%  
-	    New File  		  105861	Comp 3_00081.png100%  
-	    New File  		  107145	Comp 3_00082.png100%  
-	    New File  		  108437	Comp 3_00083.png100%  
-	    New File  		  109687	Comp 3_00084.png100%  
-	    New File  		  111131	Comp 3_00085.png100%  
-	    New File  		  112469	Comp 3_00086.png100%  
-	    New File  		  113914	Comp 3_00087.png100%  
-	    New File  		  115339	Comp 3_00088.png100%  
-	    New File  		  116693	Comp 3_00089.png100%  
-	    New File  		  118259	Comp 3_00090.png100%  
-	    New File  		  119680	Comp 3_00091.png100%  
-	    New File  		  120799	Comp 3_00092.png100%  
-	    New File  		  121916	Comp 3_00093.png100%  
-	    New File  		  122879	Comp 3_00094.png100%  
-	    New File  		  123782	Comp 3_00095.png100%  
-	    New File  		  124690	Comp 3_00096.png100%  
-	    New File  		  125334	Comp 3_00097.png100%  
-	    New File  		  125800	Comp 3_00098.png100%  
-	    New File  		  125648	Comp 3_00099.png100%  
-	    New File  		  124595	Comp 3_00100.png100%  
-	    New File  		    6148	_DS_Store100%  
-	  New Dir          2	M:\AsusWinREBackup\Main\skin\images\Img\ADT_Loding PNG Sequence\Loading Circle_FHD\
-	    New File  		   20718	Comp_3s.gif100%  
-	    New File  		    6148	_DS_Store100%  
-	  New Dir          0	M:\AsusWinREBackup\Main\skin\images\UI_2_0\
-	  New Dir         34	M:\AsusWinREBackup\Main\skin\images\UI_2_0\Background\
-	    New File  		    2003	-ge-keyboardTest_keycard.png100%  
-	    New File  		    2141	-ge-keyboardTest_keycard_press.png100%  
-	    New File  		   3.2 m	20211207 BG.png 31%   62%   93%  100%  
-	    New File  		    4180	asus-adt-asus-recovery-png2x.png100%  
-	    New File  		    4784	asus-adt-system-diagnosis-png2x.png100%  
-	    New File  		   10583	asus_ADT_system_bg_gray.png100%  
-	    New File  		   66955	asus_myasus_img_welecome2x.png100%  
-	    New File  		    3049	BG-Display test2x.png100%  
-	    New File  		   85640	BG1280x960.png100%  
-	    New File  		   83796	BG1366x768.png100%  
-	    New File  		   78765	BG1440x900.png100%  
-	    New File  		   56967	command-bar-new-arab-png2x.png100%  
-	    New File  		   17967	command-bar-new-png.png100%  
-	    New File  		    1264	command-bar-triangle-arab-png2x.png100%  
-	    New File  		    7328	component-illustrator-png.png100%  
-	    New File  		     985	home-sortinng-dropdown-2-png2x.png100%  
-	    New File  		    4303	ic_fluent_copilot_64_256.png100%  
-	    New File  		     600	Mask-usb test2x.png100%  
-	    New File  		   10696	myasus-bg-left-arab-png2x.png100%  
-	    New File  		    3061	myasus_bg_pattern_lft_lt.png100%  
-	    New File  		     707	myasus_bg_pattern_r_lt.png100%  
-	    New File  		    4711	privacy-policy-illustrate-png2x.png100%  
-	    New File  		    6736	test-illustrator-png.png100%  
-	    New File  		    3845	test-page-display-menu-card2x.png100%  
-	    New File  		  260404	test-page-display-test-1366.png100%  
-	    New File  		   95060	test-page-display-test-1440-png.png100%  
-	    New File  		  141170	test-page-display-test-1920-bottom.png100%  
-	    New File  		  135781	test-page-display-test-1920-top.png100%  
-	    New File  		  174797	test-page-display-test-1920.png100%  
-	    New File  		  518168	test-page-display-test-3200-png.png100%  
-	    New File  		    4712	test-page-touchpad-card-png2x.png100%  
-	    New File  		    1489	test-report-illustrator-png.png100%  
-	    New File  		    3726	usb_test_device_bg.png100%  
-	    New File  		   57198	welcome-illustrate-png2x.png100%  
-	  New Dir         15	M:\AsusWinREBackup\Main\skin\images\UI_2_0\Button\
-	    New File  		    1746	asus-adt-asus-recovery-s.png100%  
-	    New File  		    1973	asus-adt-cloud-recovery-s.png100%  
-	    New File  		    4037	asus-adt-cloud-recovery-s2xEx.png100%  
-	    New File  		    1897	asus-adt-system-diagnosis-m.png100%  
-	    New File  		    3766	asus-adt-system-diagnosis-s2xEx.png100%  
-	    New File  		     801	button_close_h.png100%  
-	    New File  		     205	button_close_n.png100%  
-	    New File  		    1091	button_close_p.png100%  
-	    New File  		     249	home-sortinng-dropdown-1-png2x.png100%  
-	    New File  		     272	home-sortinng-dropdown-hover2x.png100%  
-	    New File  		     148	icon-back-hover2x.png100%  
-	    New File  		     154	icon-back-normal2x.png100%  
-	    New File  		     289	icon_collapse2x.png100%  
-	    New File  		     261	sortinng-dropdown-png2x.png100%  
-	    New File  		    1636	test-page-display-menu btn2x.png100%  
-	  New Dir         81	M:\AsusWinREBackup\Main\skin\images\UI_2_0\Icon\
-	    New File  		    5190	asus-adt-local-backup-complete2x.png100%  
-	    New File  		     357	asus-icon-fail-s-png.png100%  
-	    New File  		     327	asus-icon-pass-s-png.png100%  
-	    New File  		     318	asus-icon-warning-s-png.png100%  
-	    New File  		    1760	asus-img_noitem2x.png100%  
-	    New File  		     361	asus_ADT_ic_Down_h.png100%  
-	    New File  		     358	asus_ADT_ic_Up_h.png100%  
-	    New File  		    7083	bitlockerqrcode.png100%  
-	    New File  		     655	component-test-full-icon-png2x.png100%  
-	    New File  		     380	component-test-quick-icon-png-black.png100%  
-	    New File  		     380	component-test-quick-icon-png-white.png100%  
-	    New File  		     675	component-test-quick-icon-png2x.png100%  
-	    New File  		     381	display-icon-png.png100%  
-	    New File  		     698	display-icon-png2x.png100%  
-	    New File  		     996	display-icon-png3x.png100%  
-	    New File  		     753	fail-icon-png.png100%  
-	    New File  		    1851	fan-icon-png.png100%  
-	    New File  		    4075	fan-icon-png2x.png100%  
-	    New File  		    6351	fan-icon-png3x.png100%  
-	    New File  		     633	hhd-icon-png.png100%  
-	    New File  		    1226	hhd-icon-png2x.png100%  
-	    New File  		    1873	hhd-icon-png3x.png100%  
-	    New File  		     242	icon-check-hover-indeterminate2x.png100%  
-	    New File  		     234	icon-check-hover-png2x.png100%  
-	    New File  		     400	icon-check-hover-seletced-png2x.png100%  
-	    New File  		     272	icon-check-indeterminate2x.png100%  
-	    New File  		     447	icon-check-nomal-png2x.png100%  
-	    New File  		     422	icon-check-nomal-seletcted-png2x.png100%  
-	    New File  		     316	icon-close-eye-normal-png2x.png100%  
-	    New File  		     178	icon-close-hover-png.png100%  
-	    New File  		     178	icon-close-normal-png.png100%  
-	    New File  		     175	icon-close-press-png.png100%  
-	    New File  		     221	icon-lock-png2x.png100%  
-	    New File  		     455	icon-open-eye-press-png2x.png100%  
-	    New File  		     376	icon-wifi-png2x-2 .png100%  
-	    New File  		     305	icon-wifi-png2x-l-1.png100%  
-	    New File  		     393	icon-wifi-png2x.png100%  
-	    New File  		     325	icon_expand3x.png100%  
-	    New File  		     436	icon_infomation2x.png100%  
-	    New File  		     738	icon_one-click-png.png100%  
-	    New File  		    1084	icon_one-click-png2x.png100%  
-	    New File  		    1538	icon_one-click-png3x.png100%  
-	    New File  		     281	keyboard-icon-png.png100%  
-	    New File  		     511	keyboard-icon-png2x.png100%  
-	    New File  		     744	keyboard-icon-png3x.png100%  
-	    New File  		    4042	myasus-img-error2x.png100%  
-	    New File  		    2352	myasus-img-repair2x.png100%  
-	    New File  		    2591	myasus-img-success2x.png100%  
-	    New File  		    6732	myasus_new_update_found.png100%  
-	    New File  		    1826	pass-icon-png.png100%  
-	    New File  		    1480	pass-icon-png2x.png100%  
-	    New File  		     669	power-icon-png.png100%  
-	    New File  		    1241	power-icon-png2x.png100%  
-	    New File  		    1763	power-icon-png3x.png100%  
-	    New File  		   19891	qrcode.png100%  
-	    New File  		     276	ram-icon-png.png100%  
-	    New File  		     501	ram-icon-png2x.png100%  
-	    New File  		     680	ram-icon-png3x.png100%  
-	    New File  		     442	ssd-icon-png.png100%  
-	    New File  		     713	ssd-icon-png2x.png100%  
-	    New File  		    1100	ssd-icon-png3x.png100%  
-	    New File  		    1816	test-report-no-component-icon-png.png100%  
-	    New File  		     946	touch-icon-png.png100%  
-	    New File  		    2040	touch-icon-png2x.png100%  
-	    New File  		    3220	touch-icon-png3x.png100%  
-	    New File  		     326	touchpad-icon-png.png100%  
-	    New File  		     604	touchpad-icon-png2x.png100%  
-	    New File  		     857	touchpad-icon-png3x.png100%  
-	    New File  		    1793	touchpad-test-icon-complete-png2x.png100%  
-	    New File  		     561	usb-icon-png.png100%  
-	    New File  		    1053	usb-icon-png2x.png100%  
-	    New File  		    1487	usb-icon-png3x.png100%  
-	    New File  		    1626	warning-icon-l-png2x.png100%  
-	    New File  		     776	warning-icon-png.png100%  
-	    New File  		   36821	wechat_customer_qrcode.png100%  
-	    New File  		     768	wifi-icon-png.png100%  
-	    New File  		    1650	wifi-icon-png2x.png100%  
-	    New File  		    2445	wifi-icon-png3x.png100%  
-	    New File  		     809	wifi-reorganize-hover-icon-png2x.png100%  
-	    New File  		    1196	wifi-reorganize-icon-png2x.png100%  
-	    New File  		     854	wifi-reorganize-press-icon-png2x.png100%  
-	  New Dir          6	M:\AsusWinREBackup\Main\skin\images\UI_2_0\Touchpad\
-	    New File  		     249	test-page-touchpad-following-arrow-d-png2x.png100%  
-	    New File  		     372	test-page-touchpad-following-arrow-r-png2x.png100%  
-	    New File  		     436	test-page-touchpad-following-arrow-rtl-png2x.png100%  
-	    New File  		     415	test-page-touchpad-following-rectangle-2-png2x.png100%  
-	    New File  		     498	test-page-touchpad-following-rectangle-png2x.png100%  
-	    New File  		     357	test-page-touchpad-following-square-png2x.png100%  
-	  New Dir         25	M:\AsusWinREBackup\Main\skin\lang\
-	    New File  		  123428	arabic.xml100%  
-	    New File  		  107032	brazilian.xml100%  
-	    New File  		  107994	czech.xml100%  
-	    New File  		  102635	english.xml100%  
-	    New File  		  108103	europe.xml100%  
-	    New File  		  110282	french.xml100%  
-	    New File  		  111593	german.xml100%  
-	    New File  		  114025	hebrew.xml100%  
-	    New File  		  111672	hungarian.xml100%  
-	    New File  		  105054	indonesian.xml100%  
-	    New File  		  106871	italian.xml100%  
-	    New File  		  117033	japanese.xml100%  
-	    New File  		  110634	korean.xml100%  
-	    New File  		  106840	nederlands.xml100%  
-	    New File  		  110936	polish.xml100%  
-	    New File  		  109774	romanian.xml100%  
-	    New File  		  135194	russia.xml100%  
-	    New File  		   98299	simplified.xml100%  
-	    New File  		  110149	spanish.xml100%  
-	    New File  		  104976	swedish.xml100%  
-	    New File  		  154966	thai.xml100%  
-	    New File  		   98315	traditional.xml100%  
-	    New File  		  107421	turkish.xml100%  
-	    New File  		  130875	ukrainian.xml100%  
-	    New File  		  116032	vietnamese.xml100%  
-	  New Dir         67	M:\AsusWinREBackup\Main\skin\PageDialog\
-	    New File  		    1497	DialogBackupFailList.xml100%  
-	    New File  		    1718	DialogBackupFile.xml100%  
-	    New File  		    1699	DialogBackupFileComplete.xml100%  
-	    New File  		    2456	DialogBackupFileFail.xml100%  
-	    New File  		    2008	DialogBackupLocalDisk.xml100%  
-	    New File  		    2552	DialogBitLockUnlockC.xml100%  
-	    New File  		    3140	DialogBitLockUnlockD.xml100%  
-	    New File  		     389	DialogBoardMaskGeneral.xml100%  
-	    New File  		     589	DialogCalculateFiles.xml100%  
-	    New File  		     589	DialogCloudRecovery.xml100%  
-	    New File  		    1449	DialogCloudRecoveryOutOfWarranty.xml100%  
-	    New File  		    1582	DialogCloudRecoveryOutOfWarrantySupport.xml100%  
-	    New File  		     589	DialogDeviceDetect.xml100%  
-	    New File  		    1343	DialogDeviceSelect.xml100%  
-	    New File  		    1498	DialogDiskTestTypeQuick.xml100%  
-	    New File  		     254	DialogDisplayTestIconTip.xml100%  
-	    New File  		     914	DialogDisplayTestWordLine.xml100%  
-	    New File  		    1636	DialogEULA.xml100%  
-	    New File  		    1049	DialogLanguage.xml100%  
-	    New File  		     382	DialogMainFormBGMask.xml100%  
-	    New File  		    1161	DialogNewUpdateFound.xml100%  
-	    New File  		     852	DialogPPConfirm.xml100%  
-	    New File  		    1595	DialogPrivacyPolicySelect.xml100%  
-	    New File  		    1308	DialogPrivacyPolicyStatus.xml100%  
-	    New File  		     327	DialogRAMProtect.xml100%  
-	    New File  		    2397	DialogRAMTestType.xml100%  
-	    New File  		    2244	DialogRecoveryDiskSelect.xml100%  
-	    New File  		     589	DialogRestartingADT.xml100%  
-	    New File  		     844	DialogRetryCancel.xml100%  
-	    New File  		     133	DialogScreenMask.xml100%  
-	    New File  		    1254	DialogSystemRepair.xml100%  
-	    New File  		    1128	DialogSystemRepairDone.xml100%  
-	    New File  		    1336	DialogTestReport.xml100%  
-	    New File  		    1822	DialogTestRunningDisplay.xml100%  
-	    New File  		     873	DialogTestTipLittle.xml100%  
-	    New File  		     360	DialogToolTip.xml100%  
-	    New File  		     589	DialogUpdating.xml100%  
-	    New File  		    1337	DialogUserBackupConfirm.xml100%  
-	    New File  		    1718	DialogUserBitlockUnlockConfirm.xml100%  
-	    New File  		     843	DialogUserConfirm.xml100%  
-	    New File  		    1374	DialogUserRecoveryConfirm.xml100%  
-	    New File  		     843	DialogUserRetry.xml100%  
-	    New File  		    1620	DialogUserSkipBitlockUnlockConfirm.xml100%  
-	    New File  		    1338	DialogUserSkipWLANConnectConfirm.xml100%  
-	    New File  		     744	DialogWarning.xml100%  
-	    New File  		    3714	DialogWelcomePageOne.xml100%  
-	    New File  		    5957	DialogWelcomePageThree.xml100%  
-	    New File  		    4997	DialogWelcomePageTwoCloud.xml100%  
-	    New File  		    4657	DialogWelcomePageTwoGaming.xml100%  
-	    New File  		    1938	DialogWiFiAPSelect.xml100%  
-	    New File  		    2563	DialogWiFiConnectAuth.xml100%  
-	    New File  		    2991	DialogWiFiConnectAuthHidden.xml100%  
-	    New File  		     589	DialogWiFiConnecting.xml100%  
-	    New File  		     576	ListItemBackupFailFile.xml100%  
-	    New File  		     663	ListItemCloudRecoveryDisk.xml100%  
-	    New File  		    1008	ListItemComponentCard.xml100%  
-	    New File  		     392	ListItemDeviceName.xml100%  
-	    New File  		     525	ListItemFolderFile.xml100%  
-	    New File  		     384	ListItemLocalDisk.xml100%  
-	    New File  		    1546	ListItemOneClickCard.xml100%  
-	    New File  		     422	ListItemTestHistory.xml100%  
-	    New File  		     636	ListItemTestSubItem.xml100%  
-	    New File  		     496	ListItemUSBDevice.xml100%  
-	    New File  		     656	ListItemWiFiAP.xml100%  
-	    New File  		    2292	WidgetTpClickTest.xml100%  
-	    New File  		     675	WidgetTpGhostTouchTest.xml100%  
-	    New File  		    2399	WidgetTpLineTest.xml100%  
-	  New Dir         16	M:\AsusWinREBackup\Main\skin\PageMain\
-	    New File  		    4258	BoardBackupSelectLocalFile.xml100%  
-	    New File  		    1511	BoardCloudRecovery.xml100%  
-	    New File  		    4073	BoardComponentTest.xml100%  
-	    New File  		    5283	BoardRunningDisplay.xml100%  
-	    New File  		    3545	BoardRunningKeyboard.xml100%  
-	    New File  		    4268	BoardRunningTouchpad.xml100%  
-	    New File  		    4334	BoardRunningUSB.xml100%  
-	    New File  		    4978	BoardTestHistory.xml100%  
-	    New File  		    6815	BoardTestReportDetail.xml100%  
-	    New File  		    5961	BoardTestRunningGeneral.xml100%  
-	    New File  		    4600	BoardTestRunningOneClick.xml100%  
-	    New File  		    3920	WidgetDisplayTest.xml100%  
-	    New File  		    5998	WidgetGeneralTest.xml100%  
-	    New File  		    2392	WidgetKeyboardTest.xml100%  
-	    New File  		    4334	WidgetTouchpadTest.xml100%  
-	    New File  		    2813	WidgetUSBTest.xml100%  
-	  New Dir          0	M:\AsusWinREBackup\Main\tool\
-	  New Dir          2	M:\AsusWinREBackup\Main\tool\curl\
-	    New File  		  601544	curl.exe100%  
-	    New File  		    1095	MIT License.txt100%  
-	  New Dir          0	M:\AsusWinREBackup\Main\tool\RSSI\
-	  New Dir          0	M:\AsusWinREBackup\Main\tool\RSSI\AntSwitchTest\
-	  New Dir          5	M:\AsusWinREBackup\Main\tool\RSSI\AntSwitchTest\AntSwitchTest\
-	    New File  		  124416	AntSwitchTest.exe100%  
-	    New File  		    1290	toolconf.example_GZ700.ini100%  
-	    New File  		    1290	toolconf.ini100%  
-	    New File  		    1290	toolconf_example_GX531.ini100%  
-	    New File  		     138	Usage.txt100%  
-	  New Dir          5	M:\AsusWinREBackup\Main\tool\RSSI\AntSwitchTest\NewAntSwitchTest\
-	    New File  		  131584	AntSwitchTest.exe100%  
-	    New File  		    1290	toolconf.example_GZ700.ini100%  
-	    New File  		    1420	toolconf.ini100%  
-	    New File  		    1290	toolconf_example_GX531.ini100%  
-	    New File  		     203	Usage.txt100%  
-	  New Dir          1	M:\AsusWinREBackup\Main\tool\RSSI\MTK\
-	    New File  		   1.2 m	mtkoemx.exe 80%  100%  
-	  New Dir          4	M:\AsusWinREBackup\Main\tool\RSSI\RTK\
-	    New File  		     348	Config.ini100%  
-	    New File  		  864616	RtlWlanAnt.exe100%  
-	    New File  		     279	Test.bat100%  
-	    New File  		   2.5 m	wlanCliDLL.dll 39%   79%  100%  
-	  New Dir          1	M:\AsusWinREBackup\Main\tool\sc\
-	    New File  		   80240	sc.exe100%  
-	  New Dir          1	M:\System Volume Information\
-	    New File  		      12	WPSettings.dat100%  
-
-------------------------------------------------------------------------------
-
-               Total    Copied   Skipped  Mismatch    FAILED    Extras
-    Dirs :        68        67         1         0         0         0
-   Files :       870       870         0         0         0         0
-   Bytes :   93.95 m   93.95 m         0         0         0         0
-   Times :   0:00:08   0:00:08                       0:00:00   0:00:00
-
-
-   Speed :           11,708,010 Bytes/sec.
-   Speed :              669.938 MegaBytes/min.
-   Ended : Monday, August 10, 2026 12:52:09 PM
-
