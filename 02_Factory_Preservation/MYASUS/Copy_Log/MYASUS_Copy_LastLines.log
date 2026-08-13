@@ -1,0 +1,88 @@
+	    New File  		    3545	BoardRunningKeyboard.xml
+100%  
+	    New File  		    4268	BoardRunningTouchpad.xml
+100%  
+	    New File  		    4334	BoardRunningUSB.xml
+100%  
+	    New File  		    4978	BoardTestHistory.xml
+100%  
+	    New File  		    6815	BoardTestReportDetail.xml
+100%  
+	    New File  		    5961	BoardTestRunningGeneral.xml
+100%  
+	    New File  		    4600	BoardTestRunningOneClick.xml
+100%  
+	    New File  		    3920	WidgetDisplayTest.xml
+100%  
+	    New File  		    5998	WidgetGeneralTest.xml
+100%  
+	    New File  		    2392	WidgetKeyboardTest.xml
+100%  
+	    New File  		    4334	WidgetTouchpadTest.xml
+100%  
+	    New File  		    2813	WidgetUSBTest.xml
+100%  
+	  New Dir          0	M:\AsusWinREBackup\Main\tool\
+	  New Dir          2	M:\AsusWinREBackup\Main\tool\curl\
+	    New File  		  601544	curl.exe
+100%  
+	    New File  		    1095	MIT License.txt
+100%  
+	  New Dir          0	M:\AsusWinREBackup\Main\tool\RSSI\
+	  New Dir          0	M:\AsusWinREBackup\Main\tool\RSSI\AntSwitchTest\
+	  New Dir          5	M:\AsusWinREBackup\Main\tool\RSSI\AntSwitchTest\AntSwitchTest\
+	    New File  		  124416	AntSwitchTest.exe
+100%  
+	    New File  		    1290	toolconf.example_GZ700.ini
+100%  
+	    New File  		    1290	toolconf.ini
+100%  
+	    New File  		    1290	toolconf_example_GX531.ini
+100%  
+	    New File  		     138	Usage.txt
+100%  
+	  New Dir          5	M:\AsusWinREBackup\Main\tool\RSSI\AntSwitchTest\NewAntSwitchTest\
+	    New File  		  131584	AntSwitchTest.exe
+100%  
+	    New File  		    1290	toolconf.example_GZ700.ini
+100%  
+	    New File  		    1420	toolconf.ini
+100%  
+	    New File  		    1290	toolconf_example_GX531.ini
+100%  
+	    New File  		     203	Usage.txt
+100%  
+	  New Dir          1	M:\AsusWinREBackup\Main\tool\RSSI\MTK\
+	    New File  		   1.2 m	mtkoemx.exe
+ 80%  
+100%  
+	  New Dir          4	M:\AsusWinREBackup\Main\tool\RSSI\RTK\
+	    New File  		     348	Config.ini
+100%  
+	    New File  		  864616	RtlWlanAnt.exe
+100%  
+	    New File  		     279	Test.bat
+100%  
+	    New File  		   2.5 m	wlanCliDLL.dll
+ 39%  
+ 79%  
+100%  
+	  New Dir          1	M:\AsusWinREBackup\Main\tool\sc\
+	    New File  		   80240	sc.exe
+100%  
+	  New Dir          1	M:\System Volume Information\
+	    New File  		      12	WPSettings.dat
+100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :        68        67         1         0         0         0
+   Files :       870       870         0         0         0         0
+   Bytes :   93.95 m   93.95 m         0         0         0         0
+   Times :   0:00:08   0:00:08                       0:00:00   0:00:00
+
+
+   Speed :           11,708,010 Bytes/sec.
+   Speed :              669.938 MegaBytes/min.
+   Ended : Monday, August 10, 2026 12:52:09 PM
