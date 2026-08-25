@@ -3,11 +3,13 @@ name: Auto-Convert Docs for ChatGPT
 on:
   push:
     branches:
-      - main  # Runs every time you push changes to the main branch
+      - main
 
 jobs:
   convert:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly authorizes the runner to push files back to your repo
 
     steps:
     - name: Checkout repository code
@@ -16,7 +18,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-python-version: '3.10'
+        python-version: '3.10'  # Fixed the typo here
 
     - name: Install conversion libraries
       run: |
@@ -59,9 +61,10 @@ jobs:
         rm convert.py
 
     - name: Commit and push changes back to repo
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Safely passes the security token to Git
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
         git add *.md *.csv
-        # Only commit if there are actually changes to avoid failing the build
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-converted docs for ChatGPT" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-converted docs for ChatGPT" && git push origin main)
