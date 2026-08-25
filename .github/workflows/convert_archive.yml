@@ -9,23 +9,25 @@ jobs:
   convert:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Explicitly authorizes the runner to push files back to your repo
+      contents: write
 
     steps:
     - name: Checkout repository code
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Fetches entire history to prevent merge conflicts
 
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'  # Fixed the typo here
+        python-version: '3.10'
 
     - name: Install conversion libraries
       run: |
         python -m pip install --upgrade pip
         pip install python-docx pandas openpyxl xlrd
 
-    - name: Run conversion script
+    - name: Run Deep-Scan Conversion Script
       run: |
         cat << 'EOF' > convert.py
         import os
@@ -39,32 +41,48 @@ jobs:
                     for para in doc.paragraphs:
                         if para.text.strip():
                             f.write(para.text + '\n\n')
+                print(f"Successfully converted docx: {docx_path}")
             except Exception as e:
-                print(f"Error docx: {e}")
+                print(f"Error converting docx {docx_path}: {e}")
 
         def convert_xls_to_csv(xls_path, csv_path):
             try:
                 df = pd.read_excel(xls_path)
                 df.to_csv(csv_path, index=False)
+                print(f"Successfully converted excel: {xls_path}")
             except Exception as e:
-                print(f"Error excel: {e}")
+                print(f"Error converting excel {xls_path}: {e}")
 
-        for filename in os.listdir('.'):
-            base, ext = os.path.splitext(filename)
-            ext = ext.lower()
-            if ext == '.docx':
-                convert_docx_to_md(filename, f"{base}.md")
-            elif ext in ['.xls', '.xlsx']:
-                convert_xls_to_csv(filename, f"{base}.csv")
+        # os.walk scans the root, folders, and all subfolders recursively
+        for root, dirs, files in os.walk('.'):
+            # Skip hidden git folders
+            if '.git' in root:
+                continue
+                
+            for filename in files:
+                base, ext = os.path.splitext(filename)
+                ext = ext.lower()
+                
+                full_input_path = os.path.join(root, filename)
+                
+                if ext == '.docx':
+                    full_output_path = os.path.join(root, f"{base}.md")
+                    convert_docx_to_md(full_input_path, full_output_path)
+                elif ext in ['.xls', '.xlsx']:
+                    full_output_path = os.path.join(root, f"{base}.csv")
+                    convert_xls_to_csv(full_input_path, full_output_path)
         EOF
         python convert.py
         rm convert.py
 
-    - name: Commit and push changes back to repo
+    - name: Commit and push changes from all folders
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Safely passes the security token to Git
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
-        git add *.md *.csv
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-converted docs for ChatGPT" && git push origin main)
+        
+        # This force-scans all subdirectories for new markdown and csv files
+        git add "/***.md" "/***.csv" 2>/dev/null || git add .
+        
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-converted nested docs for ChatGPT" && git push origin main)
