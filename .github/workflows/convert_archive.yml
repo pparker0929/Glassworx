@@ -15,7 +15,7 @@ jobs:
     - name: Checkout repository code
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
+        fetch-depth: 0  # Fetches entire history to prevent merge conflicts
 
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -53,24 +53,9 @@ jobs:
             except Exception as e:
                 print(f"Error converting excel {xls_path}: {e}")
 
-        def fix_utf16_txt(txt_path):
-            try:
-                # Attempt to read as UTF-16 (handles BOM automatically)
-                with open(txt_path, 'r', encoding='utf-16') as f:
-                    content = f.read()
-                
-                # Overwrite the exact same file with clean UTF-8 formatting
-                with open(txt_path, 'w', encoding='utf-8') as f:
-                    f.write(content)
-                print(f"🔄 Fixed UTF-16 Encoding on: {txt_path}")
-            except UnicodeError:
-                # If it throws a UnicodeError, it means the file is already UTF-8 or normal text, so skip it safely!
-                pass
-            except Exception as e:
-                print(f"Error checking text encoding for {txt_path}: {e}")
-
         # os.walk scans the root, folders, and all subfolders recursively
         for root, dirs, files in os.walk('.'):
+            # Skip hidden git folders
             if '.git' in root:
                 continue
                 
@@ -86,9 +71,6 @@ jobs:
                 elif ext in ['.xls', '.xlsx']:
                     full_output_path = os.path.join(root, f"{base}.csv")
                     convert_xls_to_csv(full_input_path, full_output_path)
-                elif ext == '.txt':
-                    # Automatically checks and converts UTF-16 files to UTF-8 on the fly
-                    fix_utf16_txt(full_input_path)
         EOF
         python convert.py
         rm convert.py
@@ -100,7 +82,7 @@ jobs:
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@://github.com"
         
-        # Track all markdown, csv, and updated text files
-        git add "/***.md" "/***.csv" "/***.txt" 2>/dev/null || git add .
+        # This force-scans all subdirectories for new markdown and csv files
+        git add "/***.md" "/***.csv" 2>/dev/null || git add .
         
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-converted docs and fixed text encodings for ChatGPT" && git push origin main)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-converted nested docs for ChatGPT" && git push origin main)
